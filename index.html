@@ -7,23 +7,66 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    body{background-color: hsl(0, 0%, 100%);}
+    body{
+      background-color: hsl(212, 45%, 89%);
+      font-family: Outfit,sans-serif;
+    }
+    img{
+      width:200px;
+      border-radius: 8px;
+    }
+    .card{
+      width:200px;
+      height:310px;
+      padding:10px;
+      padding-bottom: 30px;
+      margin:auto;
+      border-radius: 10px;
+      border:none;
+      background-color: white;
+      
+      margin-top:20vh;
+      text-align: center;
+    }
+    .card-title{
+      font-weight: 700;
+      font-size: 14px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    .card-content{
+      font-weight: 400;
+      color: hsla(216, 3%, 32%, 0.692);
+      font-size: 12px;
+      padding-left: 8px;
+      padding-right: 8px;
+      
+    }
+
+      
   </style>
 </head>
 <body>
+  <div class="card">
+    <img src="/images/image-qr-code.png">
+    <p class="card-title">Improve your front-end skills by building projects</p>
+    <p class="card-content">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  </div>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
   
+
+  <br>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Vidya Jaggi</a>.
   </div>
 </body>
 </html>
